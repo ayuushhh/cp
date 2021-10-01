@@ -129,9 +129,10 @@ void testcase() {
   for (auto it = mylist.begin(); it != mylist.end(); ++it) {
     if(*it < min)  min = *it;
   }
-  list <int> newlist(n);
+//   list <int> newlist(n);
   // nq.push_front(q[0]);
   // nq.push_back(q[1]);
+  cout<<endl;
   for (auto it = mylist.begin(); it != mylist.end(); ++it) {
     if(*it == min) newlist.push_front(*it);
     else  newlist.push_back(*it);
